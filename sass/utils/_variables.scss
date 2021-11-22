@@ -1,0 +1,51 @@
+$title-text-color: #212121;
+$text-color: #757575;
+$extra-text-color: #000000;
+$extra-color: #2196f3;
+$bg-primary-color: #ffffff;
+$bg-secondary-color: #f5f4fa;
+$extra-bg-color: #2f303a;
+$card-border: #eeeeee;
+$clients-border: #afb1b8;
+$modal-submit: #188ce8;
+$header-border: #ececec;
+
+body {
+  font-family: Roboto, sans-serif;
+  color: var(--title-text-color);
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+button {
+  padding: 0;
+}
+
+.list-decor {
+  list-style: none;
+}
+
+.link-decor {
+  text-decoration: none;
+}

@@ -1,0 +1,112 @@
+@media screen and (max-width: 767px) {
+
+    .mobile-menu-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    transform: translateX(150%);
+    z-index: 999;
+
+    background-color: $bg-primary-color;
+
+    &.is-open {
+      transform: translateX(0);
+    }
+
+    &__close {
+      position: absolute;
+      right: 25px;
+      top: 21px;
+
+      border-style: none;
+      background-color: transparent;
+
+      &:hover,
+      &:focus {
+        fill: $extra-color;
+        }
+      }
+
+      &__list-nav {
+      position: absolute;
+      top: 48px;
+      left: 40px;
+      font-weight: 500;
+      font-size: 40px;
+      line-height: 1.17;
+      letter-spacing: 0.02em;
+      
+
+      & .mobile-menu-container__item-nav:not(:last-child) {
+        margin-bottom: 36px;
+      }
+
+      & .mobile-menu-container__link {
+          color: $title-text-color;
+
+        &:hover,
+        &:focus {
+          color: $extra-color;
+          }
+        }
+      }
+
+    &__list-contacts {
+      position: absolute;
+      top: 562px;
+      left: 40px;
+    }
+
+     &__item-contacts:not(:first-child) {
+      margin-top: 32px;
+    }
+
+    &__link-contacts-1 {
+      font-weight: 500;
+      font-size: 34px;
+      line-height: 1.17;
+      letter-spacing: 0.02em;
+
+      color: $extra-color;
+    }
+
+     &__link-contacts-2 {
+      font-weight: 500;
+      font-size: 24px;
+      line-height: 1.16;
+      letter-spacing: 0.02em;
+      color: $text-color;
+    }
+
+    &__list-social {
+      display: flex;
+
+      position: absolute;
+      top: 726px;
+      left: 40px;
+    }
+
+    &__link-social {
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 1.22;
+      letter-spacing: 0.02em;
+
+      color: $extra-color;
+    }
+
+    &__item-social:not(:last-child){
+        &::after{
+        content: ' ';
+        width: 22px;
+        margin-left: 10px;
+        margin-right: 10px;
+
+        border: 1px solid rgba(33, 33, 33, 0.2);
+        transform: rotate(90deg);
+        }
+     }
+  }
+}

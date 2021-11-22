@@ -1,0 +1,50 @@
+@media screen and (max-width: 767px) {
+    .page-header {
+    width: 100%;
+
+    background: var(--bg-primary-color);
+    border-bottom: 1px solid $header-border;
+  }
+
+  .navigation {
+    width: 479px;
+
+    padding: 10px 0;
+
+    font-family: Raleway, cursive;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+
+    border-bottom: 1px solid $header-border;
+
+    &__logo-web {
+      color: $extra-color;
+    }
+
+    &__logo-studio {
+      color: $extra-text-color;
+    }
+
+     &__list {
+      display: none;
+    }
+
+    &__mobile-button{
+      border: none;
+      background-color: transparent;
+
+      margin-left: 276px;
+
+      &:hover,
+      &:focus {
+        fill: $extra-color;
+       }
+     }
+   }
+
+   .contacts {
+    display: none;
+  }
+}
