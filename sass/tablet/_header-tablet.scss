@@ -1,0 +1,129 @@
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+
+    .page-header{
+    width: 100%;
+
+    background: var(--bg-primary-color);
+    border-bottom: 1px solid $header-border;
+    }
+
+    .main-nav-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .navigation__mobile-button {
+    display: none;
+  }
+
+  .navigation {
+    display: flex;
+    align-items: center;
+    width: 479px;
+
+    padding: 26px 0;
+
+    font-family: Raleway, cursive;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+
+    &__logo-web {
+      color: $extra-color;
+    }
+
+    &__logo-studio {
+      color: $extra-text-color;
+    }
+
+    &__list {
+      display: flex;
+      margin-left: 88px;
+    }
+
+    &__item:not(:last-child) {
+      margin-right: 50px;
+    }
+
+    &__link {
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 1.14;
+      letter-spacing: 0.02em;
+      color: $title-text-color;
+
+      position: relative;
+    }
+
+    &__link--current-page {
+      color: $extra-color;
+    }
+
+    &__link--current-page::after {
+      display: inline-block;
+      position: absolute;
+      content: '';
+
+      width: 100%;
+      height: 4px;
+      bottom: -30px;
+      left: 0;
+
+      border-radius: 2px;
+      background-color: $extra-color;
+    }
+
+    &__mobile-button {
+      border: none;
+      background-color: transparent;
+
+      margin-left: 276px;
+
+      &:hover,
+      &:focus {
+        fill: $extra-color;
+      }
+    }
+  }
+
+  .contacts {
+      &__link {
+      display: flex;
+      font-weight: 500;
+      font-size: 12px;
+      line-height: 1.16;
+      letter-spacing: 0.02em;
+      color: $text-color;
+      fill: $text-color;
+
+      &:hover,
+      &:focus {
+        color: $extra-color;
+        fill: $extra-color;
+
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+        transition-duration: 250ms;
+         }
+      }
+
+      &__item {
+      margin-top: 8px;
+    }
+
+    &__envelope {
+      width: 14px;
+      height: 10px;
+
+      margin-right: 8px;
+    }
+
+     &__smartphone {
+      width: 10px;
+      height: 14px;
+
+      margin-right: 8px;
+    }
+  }
+}
