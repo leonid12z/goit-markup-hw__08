@@ -1,0 +1,64 @@
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+    .qualities {
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+
+    &__list {
+      display: flex;
+      flex-wrap: wrap;
+
+      margin-left: -30px;
+      margin-top: -30px;
+    }
+
+     &__item {
+      flex-basis: calc(100% / 3 - 30px);
+
+      margin-left: 30px;
+      margin-top: 30px;
+    }
+
+    &__antenna,
+    &__clock,
+    &__diagram,
+    &__astronaut {
+      width: 70px;
+      height: 70px;
+    }
+
+    &__div-antenna,
+    &__div-clock,
+    &__div-diagram,
+    &__div-astronaut {
+      width: 354px;
+      height: 120px;
+      background: $bg-secondary-color;
+
+      border-radius: 4px;
+
+      padding: 25px 144px;
+    }
+
+    &__hdr {
+      padding-top: 30px;
+
+      font-weight: bold;
+      font-size: 14px;
+      line-height: 1.14;
+      letter-spacing: 0.03em;
+      text-transform: uppercase;
+      color: $title-text-color;
+    }
+
+     &__dscrpt {
+      font-size: 14px;
+      line-height: 1.71;
+      letter-spacing: 0.03em;
+      color: $text-color;
+
+      padding-top: 10px;
+      }
+    }
+  }
+  

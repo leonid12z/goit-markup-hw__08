@@ -1,0 +1,144 @@
+@media screen and (min-width: 1200px) {
+    .mobile-menu-container {
+    display: none;
+  }
+
+  .page-header {
+    width: 100%;
+
+    background: var(--bg-primary-color);
+    border-bottom: 1px solid $header-border;
+  }
+
+  .navigation__mobile-button {
+    display: none;
+  }
+
+  .navigation__logotype {
+    font-family: Raleway, cursive;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+  }
+
+  .navigation {
+      &__logo-web {
+      color: $extra-color;
+    }
+
+    &__logo-studio {
+      color: $extra-text-color;
+    }
+  }
+
+  .navigation__link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: $title-text-color;
+
+    position: relative;
+
+    &:hover,
+    &:focus {
+      color: $extra-color;
+
+      transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+      transition-duration: 250ms;
+    }
+  }
+
+  .navigation__link--current-page {
+      color: $extra-color;
+
+      &::after {
+      display: inline-block;
+      position: absolute;
+      content: '';
+
+      width: 100%;
+      height: 4px;
+      bottom: -1px;
+      left: 0;
+
+      border-radius: 2px;
+      background-color: $extra-color;
+    }
+  }
+
+  .navigation__list {
+    display: flex;
+    margin-left: 93px;
+
+     & .navigation__item:not(:last-child) {
+      margin-right: 50px;
+    }
+
+    & .navigation__link {
+      display: block;
+      padding-top: 32px;
+      padding-bottom: 32px;
+    }
+  }
+
+  .contacts {
+    display: flex;
+    margin-left: auto;
+
+    & .contacts__item:not(:last-child) {
+      margin-right: 30px;
+    }
+  }
+
+  .contacts__item .contacts__link {
+    display: flex;
+    align-items: center;
+  }
+
+  .contacts__link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: $text-color;
+    fill: $text-color;
+
+    &:hover,
+    &:focus {
+      color: $extra-color;
+      fill: $extra-color;
+
+      transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+      transition-duration: 250ms;
+    }
+  }
+
+  .contacts {
+      &__envelope {
+      width: 16px;
+      height: 12px;
+    }
+
+    &__smartphone {
+      width: 10px;
+      height: 16px;
+    }
+
+    &__envelope,
+    &__smartphone {
+      margin-right: 10px;
+    }
+  }
+
+  .navigation {
+    display: flex;
+    align-items: center;
+  }
+
+  .main-nav-div {
+    display: flex;
+    align-items: center;
+  }
+}

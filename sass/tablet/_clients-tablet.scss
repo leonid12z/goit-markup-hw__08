@@ -1,0 +1,76 @@
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+    .clients{
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+    &__hdr {
+      font-weight: bold;
+      font-size: 28px;
+      line-height: 1.17;
+      text-align: center;
+      letter-spacing: 0.03em;
+
+      color: $title-text-color;
+    }
+
+    &__list {
+      display: flex;
+      flex-wrap: wrap;
+
+      margin-left: -30px;
+      margin-top: -30px;
+
+      padding-top: 30px;
+    }
+
+    &__list .clients__link {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      padding: 16px 52px;
+
+      fill: $clients-border;
+    }
+
+    &__logo-1,
+    &__logo-2,
+    &__logo-3,
+    &__logo-4,
+    &__logo-5,
+    &__logo-6 {
+      width: 106px;
+      height: 60px;
+    }
+
+    &__list .clients__item {
+      flex-basis: calc(100% / 3 - 30px);
+
+      margin-left: 30px;
+      margin-top: 30px;
+
+      width: 226px;
+      height: 92px;
+
+      border: 1px solid $clients-border;
+      border-radius: 4px;
+    }
+
+    &__list .clients__item:hover,
+    &__list .clients__item:focus {
+      border-color: $extra-color;
+
+      transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+      transition-duration: 250ms;
+    }
+
+    &__list .clients__link:hover,
+    &__list .clients__link:focus {
+      fill: $extra-color;
+
+      transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+      transition-duration: 250ms;
+      }
+    }
+ }
+ 

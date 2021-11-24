@@ -1,0 +1,49 @@
+@media screen and (min-width: 1200px) {
+    .tasks__hdr {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: $title-text-color;
+
+    margin-bottom: 50px;
+    }
+
+    .tasks__list {
+        display: flex;
+
+         & .tasks__item:not(:last-child) {
+      margin-right: 30px;
+      }
+    }
+
+    .tasks__banner {
+         position: relative;
+
+   &-text {
+      position: absolute;
+
+      width: 100%;
+      height: 70px;
+      bottom: 0;
+
+      padding: 27px 0;
+
+      background: rgba(47, 48, 58, 0.8);
+      }
+
+      &-hdr {
+      font-weight: bold;
+      font-size: 14px;
+      line-height: 1.14;
+      text-align: center;
+      letter-spacing: 0.03em;
+      text-transform: uppercase;
+
+      color: $bg-primary-color;
+      }
+    }
+  }
+
+  

@@ -1,0 +1,186 @@
+@media screen and (min-width: 1200px) {
+    .page-footer {
+    background: $extra-bg-color;
+    padding: 60px 0;
+  }
+
+  .ftr-contacts__logotype {
+    font-family: Raleway, cursive;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+
+    display: block;
+    margin-bottom: 20px;
+  }
+
+  .ftr-contacts {
+      &__logo-web {
+      color: $extra-color;
+    }
+
+    &__logo-studio {
+      color: $bg-primary-color;
+    }
+  }
+
+  .address {
+       &__paragraph {
+      font-style: normal;
+      font-size: 14px;
+      line-height: 1.71;
+      letter-spacing: 0.03em;
+      color: $bg-primary-color;
+
+      display: block;
+      margin-bottom: 9px;
+    }
+
+    &__list .address__item:not(:last-child) {
+      margin-bottom: 9px;
+    }
+  }
+
+  .ftr-social__hdr {
+    font-weight: bold;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    color: $bg-primary-color;
+  }
+
+  .ftr-social__list {
+    display: flex;
+
+    margin-top: 20px;
+
+    & .ftr-social__item:not(:last-child) {
+      margin-right: 10px;
+    }
+  }
+
+  .ftr-social__link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 44px;
+    height: 44px;
+
+    border-radius: 50%;
+    border: none;
+
+    background: rgba(255, 255, 255, 0.1);
+    fill: $bg-primary-color;
+
+    cursor: pointer;
+
+    &:hover {
+      background: $extra-color;
+      fill: $bg-primary-color;
+
+      transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+      transition-duration: 250ms;
+    }
+  }
+
+  .address {
+       &__mail {
+      font-style: normal;
+      font-size: 14px;
+      line-height: 1.71;
+      letter-spacing: 0.03em;
+      color: rgba(255, 255, 255, 0.6);
+    }
+
+    &__phone {
+      font-style: normal;
+      font-size: 14px;
+      line-height: 1.71;
+      letter-spacing: 0.03em;
+      color: rgba(255, 255, 255, 0.6);
+    }
+  }
+
+  .ftr-contacts {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+
+    &__div {
+      margin-right: 70px;
+    }
+  }
+
+  .ftr-mailing {
+      &__hdr {
+      font-weight: bold;
+      font-size: 14px;
+      line-height: 1.14;
+      letter-spacing: 0.03em;
+      text-transform: uppercase;
+
+      color: $bg-primary-color;
+    }
+
+    &__form {
+      width: 570px;
+      height: 86px;
+    }
+  }
+
+  .subscribe-div {
+    display: flex;
+    justify-content: space-between;
+
+    margin-top: 20px;
+  }
+
+  .subscribe-div__input {
+    width: 358px;
+    height: 50px;
+
+    padding-left: 16px;
+
+    background: $extra-bg-color;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 250ms;
+  }
+
+   .subscribe-div__btn {
+       width: 200px;
+    height: 50px;
+
+    border-style: none;
+    background: #2196f3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    cursor: pointer;
+
+     &-text {
+      font-weight: bold;
+      font-size: 16px;
+      line-height: 1.87;
+      color: $bg-primary-color;
+
+      margin-right: 10px;
+    }
+
+    &__icon-icon {
+        fill: #ffffff;
+      }
+   }
+}

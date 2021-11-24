@@ -1,0 +1,65 @@
+@media screen and (min-width: 1200px) {
+    .clients__hdr {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: $title-text-color;
+
+    margin-bottom: 50px;
+    }
+
+     .clients__list {
+    display: flex;
+    justify-content: center;
+
+    & .clients__link {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      padding: 16px 32px;
+
+      fill: $clients-border;
+       }
+     }
+
+  .clients__logo-1,
+  .clients__logo-2,
+  .clients__logo-3,
+  .clients__logo-4,
+  .clients__logo-5,
+  .clients__logo-6 {
+    width: 106px;
+    height: 60px;
+  }
+
+  .clients__list .clients__item {
+    width: 170px;
+    height: 92px;
+
+    border: 1px solid $clients-border;
+    border-radius: 4px;
+
+    &:not(:last-child) {
+      margin-right: 30px;
+    }
+
+    &:hover,
+    &:focus {
+      border-color: $extra-color;
+
+      transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+      transition-duration: 250ms;
+    }
+  }
+
+  .clients__list .clients__link:hover,
+  .clients__list .clients__link:focus {
+    fill: $extra-color;
+
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 250ms;
+  }
+}
