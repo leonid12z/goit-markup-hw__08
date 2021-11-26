@@ -45,6 +45,12 @@ button {
   padding-right: 15px;
 }
 
+@media screen and (min-width: 480px) {
+  .container {
+    width: 480px;
+  }
+}
+
 @media screen and (min-width: 768px) {
   .container {
     width: 768px;
@@ -834,7 +840,7 @@ button {
     color: #2196f3;
   }
   .mobile-menu-container__item-social:not(:last-child)::after {
-    content: ' ';
+    content: '';
     width: 22px;
     margin-left: 10px;
     margin-right: 10px;
@@ -988,7 +994,6 @@ button {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    width: 479px;
     padding: 26px 0;
     font-family: Raleway, cursive;
     font-weight: bold;
@@ -1472,6 +1477,7 @@ button {
     margin-right: auto;
   }
   .ftr-mailing__hdr {
+    margin-bottom: 20px;
     font-weight: bold;
     font-size: 14px;
     line-height: 1.14;
@@ -1548,7 +1554,7 @@ button {
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
             transform: translate(-50%, -50%);
-    width: 450px;
+    width: 500px;
     height: 609px;
     padding: 40px;
     background: #ffffff;
@@ -1847,7 +1853,7 @@ button {
     transition: 250ms;
   }
   .projects__card-content {
-    padding: 20px 24px 56px 24px;
+    padding: 20px 12px 56px 20px;
     border: 1px solid #eeeeee;
   }
   .projects__card-thumb {
@@ -2476,7 +2482,7 @@ button {
     color: #ffffff;
     margin-right: 10px;
   }
-  .subscribe-div__btn__icon-icon {
+  .subscribe-div__btn .subscribe-div__icon-icon {
     fill: #ffffff;
   }
 }

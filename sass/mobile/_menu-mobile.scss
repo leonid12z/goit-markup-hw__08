@@ -43,15 +43,19 @@
         margin-bottom: 36px;
       }
 
+
       & .mobile-menu-container__link {
           color: $title-text-color;
+
 
         &:hover,
         &:focus {
           color: $extra-color;
-          }
+
+          }  
         }
       }
+      
 
     &__list-contacts {
       position: absolute;
@@ -99,7 +103,7 @@
 
     &__item-social:not(:last-child){
         &::after{
-        content: ' ';
+        content: '';
         width: 22px;
         margin-left: 10px;
         margin-right: 10px;
@@ -110,3 +114,4 @@
      }
   }
 }
+

@@ -170,7 +170,7 @@
 
     cursor: pointer;
 
-     &-text {
+      &-text {
       font-weight: bold;
       font-size: 16px;
       line-height: 1.87;
@@ -179,11 +179,14 @@
       margin-right: 10px;
     }
 
-    &__icon-icon {
-        fill: #ffffff;
+    & .subscribe-div__icon-icon {
+      fill: #ffffff;
       }
     }
  }
+
+ 
+ 
 
  
 
