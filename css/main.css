@@ -378,7 +378,7 @@ button {
     background: #2f303a;
   }
   .ftr-contacts__logotype {
-    font-family: Raleway, cursive;
+    font-family: Raleway;
     font-weight: bold;
     font-size: 24px;
     line-height: 1.16;
@@ -1384,7 +1384,7 @@ button {
             justify-content: space-between;
   }
   .ftr-contacts__logotype {
-    font-family: Raleway, cursive;
+    font-family: Raleway;
     font-weight: bold;
     font-size: 24px;
     line-height: 1.16;
@@ -1853,7 +1853,7 @@ button {
     transition: 250ms;
   }
   .projects__card-content {
-    padding: 20px 12px 56px 20px;
+    padding: 24px 20px;
     border: 1px solid #eeeeee;
   }
   .projects__card-thumb {
@@ -2034,6 +2034,7 @@ button {
   .hero {
     position: relative;
     width: 100%;
+    max-width: 1600px;
     background: #2f303a;
     text-align: center;
     padding: 200px 0;
@@ -2323,7 +2324,7 @@ button {
     padding: 60px 0;
   }
   .ftr-contacts__logotype {
-    font-family: Raleway, cursive;
+    font-family: Raleway;
     font-weight: bold;
     font-size: 26px;
     line-height: 1.19;
