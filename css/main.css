@@ -450,7 +450,6 @@ button {
     border: none;
     background: rgba(255, 255, 255, 0.1);
     fill: #ffffff;
-    cursor: pointer;
   }
   .ftr-social__link:hover {
     background: #2196f3;
@@ -510,7 +509,6 @@ button {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    cursor: pointer;
   }
   .subscribe-div__btn-text {
     font-weight: bold;
@@ -1461,7 +1459,6 @@ button {
     border: none;
     background: rgba(255, 255, 255, 0.1);
     fill: #ffffff;
-    cursor: pointer;
   }
   .ftr-social__link:hover {
     background: #2196f3;
@@ -1521,7 +1518,6 @@ button {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    cursor: pointer;
   }
   .subscribe-div__btn-text {
     font-weight: bold;
@@ -2384,7 +2380,6 @@ button {
     border: none;
     background: rgba(255, 255, 255, 0.1);
     fill: #ffffff;
-    cursor: pointer;
   }
   .ftr-social__link:hover {
     background: #2196f3;
@@ -2474,7 +2469,6 @@ button {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    cursor: pointer;
   }
   .subscribe-div__btn-text {
     font-weight: bold;
