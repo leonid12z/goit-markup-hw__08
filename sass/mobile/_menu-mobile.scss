@@ -4,6 +4,7 @@
     position: fixed;
     top: 0;
     left: 0;
+    
     width: 100vw;
     height: 100vh;
     transform: translateX(150%);
@@ -16,6 +17,7 @@
     }
 
     &__close {
+
       position: absolute;
       right: 25px;
       top: 21px;
@@ -58,6 +60,7 @@
       
 
     &__list-contacts {
+
       position: absolute;
       top: 562px;
       left: 40px;
@@ -68,6 +71,7 @@
     }
 
     &__link-contacts-1 {
+
       font-weight: 500;
       font-size: 34px;
       line-height: 1.17;
@@ -77,6 +81,7 @@
     }
 
      &__link-contacts-2 {
+
       font-weight: 500;
       font-size: 24px;
       line-height: 1.16;
@@ -85,14 +90,15 @@
     }
 
     &__list-social {
-      display: flex;
 
+      display: flex;
       position: absolute;
       top: 726px;
       left: 40px;
     }
 
     &__link-social {
+
       font-weight: 500;
       font-size: 18px;
       line-height: 1.22;
@@ -103,7 +109,7 @@
 
     &__item-social:not(:last-child){
         &::after{
-        content: '';
+        content: ' ';
         width: 22px;
         margin-left: 10px;
         margin-right: 10px;

@@ -11,6 +11,7 @@
     justify-content: space-between;
 
     &__logotype {
+      
       font-family: Raleway;
       font-weight: bold;
       font-size: 24px;
@@ -36,17 +37,21 @@
 
   .address {
     &__paragraph {
+
       font-size: 14px;
       line-height: 1.71;
       letter-spacing: 0.03em;
       color: $bg-primary-color;
       text-align: center;
+      font-style:normal;
 
       margin-top: 20px;
     }
 
     &__mail,
     &__phone {
+      font-style:normal;
+
       font-size: 14px;
       line-height: 1.71;
       letter-spacing: 0.03em;
@@ -66,6 +71,7 @@
     margin-right: 89px;
 
     &__hdr {
+
       font-weight: bold;
       font-size: 14px;
       line-height: 1.14;
@@ -87,6 +93,7 @@
     }
 
     &__link {
+
       display: flex;
       align-items: center;
       justify-content: center;
@@ -99,6 +106,8 @@
 
       background: rgba(255, 255, 255, 0.1);
       fill: $bg-primary-color;
+
+      cursor: pointer;
     }
 
     &__link:hover {
@@ -116,6 +125,7 @@
     margin-right: auto;
 
     &__hdr {
+
       margin-bottom: 20px;
       font-weight: bold;
       font-size: 14px;
@@ -166,6 +176,7 @@
     }
 
     &__btn-text {
+
       font-weight: bold;
       font-size: 16px;
       line-height: 1.87;

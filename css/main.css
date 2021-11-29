@@ -1,6 +1,7 @@
 body {
   font-family: Roboto, sans-serif;
   color: var(--title-text-color);
+  overflow-x: hidden;
 }
 
 h1,
@@ -398,9 +399,11 @@ button {
     letter-spacing: 0.03em;
     color: #ffffff;
     text-align: center;
+    font-style: normal;
     margin-top: 20px;
   }
   .address__mail, .address__phone {
+    font-style: normal;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -450,6 +453,7 @@ button {
     border: none;
     background: rgba(255, 255, 255, 0.1);
     fill: #ffffff;
+    cursor: pointer;
   }
   .ftr-social__link:hover {
     background: #2196f3;
@@ -838,7 +842,7 @@ button {
     color: #2196f3;
   }
   .mobile-menu-container__item-social:not(:last-child)::after {
-    content: '';
+    content: ' ';
     width: 22px;
     margin-left: 10px;
     margin-right: 10px;
@@ -1405,9 +1409,11 @@ button {
     letter-spacing: 0.03em;
     color: #ffffff;
     text-align: center;
+    font-style: normal;
     margin-top: 20px;
   }
   .address__mail, .address__phone {
+    font-style: normal;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -1459,6 +1465,7 @@ button {
     border: none;
     background: rgba(255, 255, 255, 0.1);
     fill: #ffffff;
+    cursor: pointer;
   }
   .ftr-social__link:hover {
     background: #2196f3;
@@ -2380,6 +2387,7 @@ button {
     border: none;
     background: rgba(255, 255, 255, 0.1);
     fill: #ffffff;
+    cursor: pointer;
   }
   .ftr-social__link:hover {
     background: #2196f3;
@@ -2773,7 +2781,7 @@ button {
   }
   .projects__card-content {
     padding: 20px 24px;
-    border: 1px solid var(--card-border);
+    border: 1px solid #eeeeee;
   }
   .projects__card-thumb {
     position: relative;

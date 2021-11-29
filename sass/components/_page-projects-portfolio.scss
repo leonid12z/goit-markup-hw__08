@@ -30,7 +30,7 @@
   .projects {
     &__card-content {
       padding: 20px 24px;
-      border: 1px solid var(--card-border);
+      border: 1px solid $card-border;
     }
 
     &__card-thumb {

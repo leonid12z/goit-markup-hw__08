@@ -8,6 +8,7 @@
 
   .ftr-contacts {
       &__logotype {
+        
       font-family: Raleway;
       font-weight: bold;
       font-size: 24px;
@@ -30,17 +31,21 @@
   .address {
 
     &__paragraph {
+
       font-size: 14px;
       line-height: 1.71;
       letter-spacing: 0.03em;
       color: $bg-primary-color;
       text-align: center;
+      font-style:normal;
 
       margin-top: 20px;
     }
 
     &__mail,
     &__phone {
+      font-style:normal;
+
       font-size: 14px;
       line-height: 1.71;
       letter-spacing: 0.03em;
@@ -93,6 +98,8 @@
 
       background: rgba(255, 255, 255, 0.1);
       fill: $bg-primary-color;
+
+      cursor: pointer;
     }
 
     &__link:hover {
@@ -172,6 +179,7 @@
       }
    }
 }
+
 
 
 
