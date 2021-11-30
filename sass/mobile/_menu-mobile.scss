@@ -45,6 +45,10 @@
         margin-bottom: 36px;
       }
 
+      & .mobile-menu-container__text {
+        color: $extra-color;
+      }
+
 
       & .mobile-menu-container__link {
           color: $title-text-color;

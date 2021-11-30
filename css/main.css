@@ -1,3 +1,12 @@
+html {
+  overflow: scroll;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+  background: transparent;
+}
+
 body {
   font-family: Roboto, sans-serif;
   color: var(--title-text-color);
@@ -797,6 +806,9 @@ button {
   }
   .mobile-menu-container__list-nav .mobile-menu-container__item-nav:not(:last-child) {
     margin-bottom: 36px;
+  }
+  .mobile-menu-container__list-nav .mobile-menu-container__text {
+    color: #2196f3;
   }
   .mobile-menu-container__list-nav .mobile-menu-container__link {
     color: #212121;
